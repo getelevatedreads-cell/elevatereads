@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Elevate Reads to discuss your book marketing needs. Book a free strategy call and transform your author career.">
+    <meta name="keywords" content="contact Elevate Reads, book marketing consultation, author marketing help, book promotion services">
+    <title>Contact Us | Elevate Reads - Book Marketing for Indie Authors</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <img src="images/ELEVATE_READS.png" alt="Elevate Reads">
+            </div>
+            <div class="preloader-spinner"></div>
+            <p class="preloader-text">Elevating Your Story...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/ELEVATE_READS.png" alt="Elevate Reads Logo">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li class="nav-item nav-cta">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-background">
+            <div class="page-header-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="page-header-content" data-aos="fade-up">
+                <span class="page-badge">Contact Us</span>
+                <h1 class="page-title">Let's Start a Conversation About Your Author Journey</h1>
+                <p class="page-subtitle">Whether you are ready to transform your book marketing or just have questions, we are here for you. No pressure, no sales pitch, just genuine conversation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper" data-aos="fade-right">
+                    <div class="contact-form-header">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we will get back to you within 24 to 48 hours.</p>
+                    </div>
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnjowrlb" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service (optional)</option>
+                                <option value="Book Marketing">Book Marketing</option>
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="Amazon Optimization">Amazon Optimization</option>
+                                <option value="Book Launch Strategy">Book Launch Strategy</option>
+                                <option value="Author Website Design">Author Website Design</option>
+                                <option value="Complete Elevate Package">Complete Elevate Package</option>
+                                <option value="Not Sure Yet">Not Sure Yet / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="books">How Many Books Have You Published?</label>
+                            <select id="books" name="books">
+                                <option value="">Select an option (optional)</option>
+                                <option value="None yet">None yet (planning first book)</option>
+                                <option value="1 book">1 book</option>
+                                <option value="2-3 books">2 to 3 books</option>
+                                <option value="4-6 books">4 to 6 books</option>
+                                <option value="7-10 books">7 to 10 books</option>
+                                <option value="10+ books">10+ books</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your book, your goals, and how we can help..."></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - Elevate Reads">
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            <span>Send Message</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"></path><path d="M22 2 15 22l-4-9-9-4 20-7z"></path></svg>
+                        </button>
+                    </form>
+                    <!-- Success Message -->
+                    <div id="formSuccess" class="form-success" style="display: none;">
+                        <div class="success-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. We will get back to you within 24 to 48 hours. In the meantime, feel free to follow us on X for free book marketing tips!</p>
+                        <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Follow Us on X</a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper" data-aos="fade-left">
+                    <div class="contact-info-card">
+                        <div class="info-header">
+                            <h3>Get in Touch</h3>
+                            <p>We would love to hear from you. Here are the ways you can reach us.</p>
+                        </div>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Email Us</h4>
+                                    <a href="mailto:getelevatedreads@gmail.com">getelevatedreads@gmail.com</a>
+                                    <p>We typically respond within 24 to 48 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Follow Us on X</h4>
+                                    <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer">@elevate_reads</a>
+                                    <p>Free book marketing tips and author insights</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Response Time</h4>
+                                    <p>We aim to respond to all inquiries within 24 to 48 hours during business days.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-cta">
+                            <h4>Prefer a Call?</h4>
+                            <p>Book a free strategy call and let's discuss your book marketing goals in person.</p>
+                            <a href="mailto:getelevatedreads@gmail.com?subject=Strategy%20Call%20Request" class="btn btn-primary">
+                                Request Strategy Call
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Trust Elements -->
+                    <div class="contact-trust">
+                        <div class="trust-header">
+                            <h4>Why Authors Trust Us</h4>
+                        </div>
+                        <div class="trust-items">
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>No pressure sales tactics</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Free initial consultation</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>150+ authors served</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>98% client satisfaction</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Transparent communication</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Results-focused approach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header centered" data-aos="fade-up">
+                <span class="section-badge">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common questions about working with us.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="faq-question">
+                        <h3>What happens after I submit the contact form?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We will respond within 24 to 48 hours with answers to your questions, relevant information about services you asked about, and if appropriate, an invitation to book a free strategy call. No pressure, just helpful information.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>I am not ready to hire anyone. Should I still reach out?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We are happy to answer general questions, provide strategic advice, and help you understand what you need. We do not pressure anyone. If you are just gathering information, that is perfectly fine!</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Do you work with authors outside the US?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We work with authors across six continents. Communication via email and video calls works across time zones. Amazon and social media are global, and most of our strategies work worldwide.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>How long before I see results?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>It depends on the service and your starting point. Amazon optimization often shows ranking improvements within 2 to 4 weeks. Book marketing typically shows sales impact within 30 days. Social media growth builds over 3 to 6 months. We set realistic expectations during your strategy call.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Do you work with all genres?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We have successfully worked with fiction (romance, thriller, mystery, fantasy, sci-fi, contemporary, and more) and non-fiction (business, self-help, memoir, how-to, health, and more). Each genre has unique strategies, and we customize our approach accordingly.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>Will you share my information?</h3>
+                        <span class="faq-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Never. We do not sell or share contact information, we do not spam, and we respect your privacy completely. Your information is safe with us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section cta-contact">
+        <div class="cta-background">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Elevate Your Book?</h2>
+                <p>Your book deserves professional marketing. Let us discuss how we can help you reach more readers and build the author career you have always wanted.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:getelevatedreads@gmail.com" class="btn btn-white btn-lg">
+                        <span>Email Us Now</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </a>
+                    <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white btn-lg">Follow on X</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <img src="images/ELEVATE_READS.png" alt="Elevate Reads">
+                        </a>
+                        <p class="footer-tagline">Your Book's Journey to Success Starts Here</p>
+                        <p class="footer-description">Expert book marketing, social media management, and author branding for indie authors who refuse to settle for invisibility.</p>
+                        <div class="footer-social">
+                            <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on X">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#book-marketing">Book Marketing</a></li>
+                            <li><a href="services.html#social-media">Social Media Management</a></li>
+                            <li><a href="services.html#amazon-optimization">Amazon Optimization</a></li>
+                            <li><a href="services.html#book-launch">Book Launch Strategy</a></li>
+                            <li><a href="services.html#website-design">Author Website Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Get In Touch</h4>
+                        <ul>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                <a href="mailto:getelevatedreads@gmail.com">getelevatedreads@gmail.com</a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer">@elevate_reads</a>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary btn-sm footer-cta">Book a Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Elevate Reads. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
