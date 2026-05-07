@@ -1,542 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Elevate Reads services: Book Marketing, Social Media Management, Amazon Optimization, Book Launch Strategy, and Author Website Design.">
-    <meta name="keywords" content="book marketing services, author social media, Amazon optimization, book launch, author website design">
-    <title>Our Services | Elevate Reads - Book Marketing for Indie Authors</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Elevate Reads</title>
+  <meta name="description" content="Book positioning, Amazon optimization, book marketing, social media management, launch strategy and author website design for non-fiction authors and thought leaders." />
+  <link rel="icon" type="image/png" href="images/ELEVATE_READS.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-content">
-            <div class="preloader-logo">
-                <img src="images/ELEVATE_READS.png" alt="Elevate Reads">
-            </div>
-            <div class="preloader-spinner"></div>
-            <p class="preloader-text">Elevating Your Story...</p>
-        </div>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <img src="images/ELEVATE_READS.png" alt="Elevate Reads" class="preloader-logo" />
+  <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+  <p class="preloader-text">Our Services</p>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar scrolled" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo" aria-label="Elevate Reads Home">
+      <img src="images/ELEVATE_READS.png" alt="Elevate Reads" />
+    </a>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
     </div>
+    <a href="contact.html" class="btn btn-primary btn-sm navbar-cta">Start the Conversation</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <img src="images/ELEVATE_READS.png" alt="Elevate Reads Logo">
-            </a>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
-                <li class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item nav-cta">
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="testimonials.html">Testimonials</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+</div>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="page-header-background">
-            <div class="page-header-overlay"></div>
-        </div>
-        <div class="container">
-            <div class="page-header-content" data-aos="fade-up">
-                <span class="page-badge">Our Services</span>
-                <h1 class="page-title">Everything Your Book Needs to Succeed</h1>
-                <p class="page-subtitle">A complete marketing toolkit designed to take your book from hidden gem to bestselling success. Professional services tailored for indie authors.</p>
-            </div>
-        </div>
-    </section>
+<!-- PAGE HEADER -->
+<header class="page-header" aria-label="Services page header">
+  <div class="container">
+    <span class="section-badge" data-animate="fade-up">Our Services</span>
+    <h1 data-animate="fade-up" data-delay="100">Positioning Services for Non-Fiction<br />Authors and Thought Leaders</h1>
+    <p data-animate="fade-up" data-delay="200">A complete visibility and positioning toolkit designed to take your book from overlooked to authoritative. Every engagement is built around your specific book, your credentials, and your target reader.</p>
+  </div>
+</header>
 
-    <!-- Service 1: Book Marketing -->
-    <section class="service-detail section-padding" id="book-marketing">
-        <div class="container">
-            <div class="service-detail-wrapper">
-                <div class="service-detail-content" data-aos="fade-right">
-                    <div class="service-detail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                    </div>
-                    <span class="section-badge">Service 01</span>
-                    <h2 class="section-title">Book Marketing</h2>
-                    <p class="service-intro">Strategic campaigns that put your book in front of the RIGHT readers at the RIGHT time with the RIGHT message.</p>
-                    <p>Generic book promotion does not work anymore. To break through the noise, you need strategic, targeted, creative marketing that reaches readers who actually want books like yours.</p>
-                    <h4>What is Included:</h4>
-                    <ul class="service-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Book promotion campaigns across multiple channels
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Email marketing setup and management
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Newsletter features and partnerships
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Targeted advertising strategy
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            PR and media outreach
-                        </li>
-                    </ul>
-                    <div class="service-result">
-                        <span class="result-label">Typical Result:</span>
-                        <span class="result-value">200% to 400% increase in monthly sales within 90 days</span>
-                    </div>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="service-detail-visual" data-aos="fade-left">
-                    <div class="visual-card">
-                        <div class="visual-stats">
-                            <div class="visual-stat">
-                                <span class="stat-value">400%</span>
-                                <span class="stat-desc">Sales Increase</span>
-                            </div>
-                            <div class="visual-stat">
-                                <span class="stat-value">30</span>
-                                <span class="stat-desc">Days to Results</span>
-                            </div>
-                        </div>
-                        <div class="visual-graphic service-graphic-1"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- SERVICES INTRO -->
+<section class="services-intro">
+  <div class="container" data-animate="fade-up">
+    <p>Most non-fiction authors piece together their visibility from disconnected sources. A freelancer handles one thing. A course teaches another. Nothing is integrated. Nothing speaks to the specific way professional readers, corporate buyers, and academic institutions discover and evaluate books like yours. Elevate Reads provides a complete, integrated positioning ecosystem where every service works in harmony to connect your book with the professional audience it was written for.</p>
+  </div>
+</section>
 
-    <!-- Service 2: Social Media Management -->
-    <section class="service-detail section-padding bg-light" id="social-media">
-        <div class="container">
-            <div class="service-detail-wrapper reverse">
-                <div class="service-detail-content" data-aos="fade-left">
-                    <div class="service-detail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                    </div>
-                    <span class="section-badge">Service 02</span>
-                    <h2 class="section-title">Social Media Management</h2>
-                    <p class="service-intro">Your author brand deserves a consistent, engaging presence that builds your platform and turns followers into readers.</p>
-                    <p>We become your social media team so you can focus on writing. Strategic content, daily posting, and genuine engagement that builds a loyal community.</p>
-                    <h4>What is Included:</h4>
-                    <ul class="service-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Daily posting on Instagram, Facebook, X, and TikTok
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Professional content creation (graphics, captions, reels)
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Engagement and community management
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Platform strategy and optimization
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Monthly analytics reports
-                        </li>
-                    </ul>
-                    <div class="service-result">
-                        <span class="result-label">Typical Result:</span>
-                        <span class="result-value">150% follower growth in 6 months with 3x to 5x higher engagement</span>
-                    </div>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="service-detail-visual" data-aos="fade-right">
-                    <div class="visual-card">
-                        <div class="visual-stats">
-                            <div class="visual-stat">
-                                <span class="stat-value">150%</span>
-                                <span class="stat-desc">Follower Growth</span>
-                            </div>
-                            <div class="visual-stat">
-                                <span class="stat-value">5x</span>
-                                <span class="stat-desc">Engagement Rate</span>
-                            </div>
-                        </div>
-                        <div class="visual-graphic service-graphic-2"></div>
-                    </div>
-                </div>
-            </div>
+<!-- SERVICE 01: THOUGHT LEADERSHIP POSITIONING -->
+<section class="service-detail-section" id="positioning">
+  <div class="container">
+    <div class="service-detail-inner">
+      <div class="service-detail-text" data-animate="fade-left">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 01</span>
+          <span class="section-badge" style="margin:0;">Core Service</span>
         </div>
-    </section>
+        <h2 class="section-title">Thought Leadership Book Positioning</h2>
+        <p class="service-detail-subline">For business authors, academics, executives, and leadership experts whose books carry institutional authority that is not yet being reflected in their Amazon presence or market visibility.</p>
+        <p>You have built decades of credibility in your field. You have the endorsements, the track record, the institutional affiliations, and the professional authority that should make your book impossible to ignore. But your Amazon page looks like every other book in your category. Your description reads like a summary rather than a strategic positioning statement.</p>
+        <p>The result is that the exact professional readers, corporate buyers, and academic decision-makers your book was written for are searching Amazon and not finding you. Not because your content is weak. Because your positioning has never been built to reach them.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Amazon description restructuring that leads with institutional authority</li>
+            <li>Endorsement repositioning as trust anchors for professional buyers</li>
+            <li>Category and keyword reclassification for professional search terms</li>
+            <li>Corporate and academic channel outreach strategy</li>
+            <li>Network activation playbook specific to your professional field</li>
+            <li>Full Amazon listing audit and competitive analysis</li>
+            <li>Implementation guidance and follow-up review</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Inquire About This Service</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-right">
+        <div class="service-detail-card">
+          <span class="big-icon">🎯</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Authority-Based Books</h3>
+          <p>Business authors, academics, executives, leadership consultants, and organizational experts whose books carry genuine authority that their current Amazon presence is not reflecting.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"A complete repositioning of your book's online presence to match the authority you have already earned."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Service 3: Amazon Optimization -->
-    <section class="service-detail section-padding" id="amazon-optimization">
-        <div class="container">
-            <div class="service-detail-wrapper">
-                <div class="service-detail-content" data-aos="fade-right">
-                    <div class="service-detail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-                    </div>
-                    <span class="section-badge">Service 03</span>
-                    <h2 class="section-title">Amazon Optimization</h2>
-                    <p class="service-intro">Make Amazon's algorithm work FOR you with optimized listings that rank higher, convert better, and sell more.</p>
-                    <p>Amazon is fundamentally a search engine. If your book is not optimized for how readers actually search, it simply will not be found among millions of titles.</p>
-                    <h4>What is Included:</h4>
-                    <ul class="service-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Comprehensive keyword research
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Book title and subtitle optimization
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Conversion-focused book description rewrite
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Strategic category selection
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            A+ Content design and competitive analysis
-                        </li>
-                    </ul>
-                    <div class="service-result">
-                        <span class="result-label">Typical Result:</span>
-                        <span class="result-value">Category bestseller status within 30 to 60 days</span>
-                    </div>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="service-detail-visual" data-aos="fade-left">
-                    <div class="visual-card">
-                        <div class="visual-stats">
-                            <div class="visual-stat">
-                                <span class="stat-value">#1</span>
-                                <span class="stat-desc">Category Rank</span>
-                            </div>
-                            <div class="visual-stat">
-                                <span class="stat-value">60</span>
-                                <span class="stat-desc">Days Average</span>
-                            </div>
-                        </div>
-                        <div class="visual-graphic service-graphic-3"></div>
-                    </div>
-                </div>
-            </div>
+<!-- SERVICE 02: BOOK MARKETING -->
+<section class="service-detail-section" id="marketing">
+  <div class="container">
+    <div class="service-detail-inner reverse">
+      <div class="service-detail-text" data-animate="fade-right">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 02</span>
         </div>
-    </section>
+        <h2 class="section-title">Book Marketing</h2>
+        <p class="service-detail-subline">Strategic, targeted campaigns that put your book in front of the professional readers, organizations, and institutions it was written for.</p>
+        <p>Generic book promotion does not work for non-fiction and business books. The channels that move fiction titles are not the channels where professional readers, corporate buyers, and academic institutions discover authoritative business and leadership titles. You need a marketing approach that understands who your reader actually is and where they actually look for books like yours.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Custom marketing strategy developed specifically for your book and professional audience</li>
+            <li>Multi-channel campaigns targeting professional readers and institutional buyers</li>
+            <li>Email marketing coordination to professional audiences and relevant communities</li>
+            <li>Promotional partnerships with business and leadership publications</li>
+            <li>Strategic outreach to professional associations and industry networks</li>
+            <li>Paid advertising targeted to professional intent keywords and audiences</li>
+            <li>Monthly reporting on all key metrics with honest assessment of results</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-left">
+        <div class="service-detail-card">
+          <span class="big-icon">📣</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Results-Ready Authors</h3>
+          <p>Non-fiction authors and business thought leaders who are ready to move beyond hope-based visibility and implement a real, strategic approach to reaching their professional audience.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"A multi-channel campaign that puts your book where professional readers are already searching for it."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Service 4: Book Launch Strategy -->
-    <section class="service-detail section-padding bg-light" id="book-launch">
-        <div class="container">
-            <div class="service-detail-wrapper reverse">
-                <div class="service-detail-content" data-aos="fade-left">
-                    <div class="service-detail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
-                    </div>
-                    <span class="section-badge">Service 04</span>
-                    <h2 class="section-title">Book Launch Strategy</h2>
-                    <p class="service-intro">A proven launch blueprint that creates buzz, builds momentum, and positions your book for maximum success.</p>
-                    <p>Your book launch is the single most important marketing moment. Amazon rewards new releases with special visibility. We make sure you capitalize on it.</p>
-                    <h4>What is Included:</h4>
-                    <ul class="service-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Pre-launch campaign setup (60 to 90 days)
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            ARC (Advance Reader Copy) strategy
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Launch week promotion coordination
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Countdown and reveal content
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Post-launch sustained momentum strategy
-                        </li>
-                    </ul>
-                    <div class="service-result">
-                        <span class="result-label">Typical Result:</span>
-                        <span class="result-value">400% more first-week sales with #1 New Release status</span>
-                    </div>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="service-detail-visual" data-aos="fade-right">
-                    <div class="visual-card">
-                        <div class="visual-stats">
-                            <div class="visual-stat">
-                                <span class="stat-value">400%</span>
-                                <span class="stat-desc">More Sales</span>
-                            </div>
-                            <div class="visual-stat">
-                                <span class="stat-value">#1</span>
-                                <span class="stat-desc">New Release</span>
-                            </div>
-                        </div>
-                        <div class="visual-graphic service-graphic-4"></div>
-                    </div>
-                </div>
-            </div>
+<!-- SERVICE 03: SOCIAL MEDIA -->
+<section class="service-detail-section" id="social">
+  <div class="container">
+    <div class="service-detail-inner">
+      <div class="service-detail-text" data-animate="fade-left">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 03</span>
         </div>
-    </section>
+        <h2 class="section-title">Social Media Management</h2>
+        <p class="service-detail-subline">Strategic, consistent thought leadership presence across the platforms where your professional readers spend time.</p>
+        <p>Most non-fiction authors either ignore social media entirely or post sporadically without strategy. Both approaches produce the same result. No audience growth. No engagement. No connection between their online presence and their book's professional discovery. The platforms where professional readers engage with content require a specific type of content, a specific posting discipline, and a strategic approach to turning platform visibility into book awareness and reader trust.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Platform strategy built around your specific audience and professional subject matter</li>
+            <li>Daily professional content creation including graphics, written posts, and video concepts</li>
+            <li>Thought leadership positioning through consistently valuable expert content</li>
+            <li>Engagement and professional community management</li>
+            <li>Monthly analytics and performance reporting with strategic recommendations</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-right">
+        <div class="service-detail-card">
+          <span class="big-icon">📱</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Presence-Building Authors</h3>
+          <p>Authors who know their professional presence needs to be stronger but do not have the time or the strategic framework to build it consistently and effectively.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"A consistent, professional social presence that builds real authority with real readers over time."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Service 5: Author Website Design -->
-    <section class="service-detail section-padding" id="website-design">
-        <div class="container">
-            <div class="service-detail-wrapper">
-                <div class="service-detail-content" data-aos="fade-right">
-                    <div class="service-detail-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                    </div>
-                    <span class="section-badge">Service 05</span>
-                    <h2 class="section-title">Author Website Design</h2>
-                    <p class="service-intro">A stunning, conversion-focused website that establishes credibility, captures email subscribers, and turns visitors into readers.</p>
-                    <p>Your website is your digital headquarters. It is where serious readers go to learn more about you and where you build your most valuable marketing asset: your email list.</p>
-                    <h4>What is Included:</h4>
-                    <ul class="service-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Custom, professional website design
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Mobile-responsive layout
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Professional author branding
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Newsletter signup integration
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Book showcase with buy links and media kit
-                        </li>
-                    </ul>
-                    <div class="service-result">
-                        <span class="result-label">Typical Result:</span>
-                        <span class="result-value">250% more email signups with professional credibility</span>
-                    </div>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="service-detail-visual" data-aos="fade-left">
-                    <div class="visual-card">
-                        <div class="visual-stats">
-                            <div class="visual-stat">
-                                <span class="stat-value">250%</span>
-                                <span class="stat-desc">More Signups</span>
-                            </div>
-                            <div class="visual-stat">
-                                <span class="stat-value">10</span>
-                                <span class="stat-desc">Week Delivery</span>
-                            </div>
-                        </div>
-                        <div class="visual-graphic service-graphic-5"></div>
-                    </div>
-                </div>
-            </div>
+<!-- SERVICE 04: AMAZON OPTIMIZATION -->
+<section class="service-detail-section" id="amazon">
+  <div class="container">
+    <div class="service-detail-inner reverse">
+      <div class="service-detail-text" data-animate="fade-right">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 04</span>
         </div>
-    </section>
+        <h2 class="section-title">Amazon Optimization</h2>
+        <p class="service-detail-subline">Comprehensive restructuring of every element of your Amazon presence to make your book discoverable to the professional readers, corporate buyers, and institutional decision-makers searching for your expertise.</p>
+        <p>Amazon is the world's largest professional book discovery engine. Executives searching for leadership frameworks. HR directors looking for books to include in development programs. Academics sourcing material for graduate seminars. All of them are using Amazon as a search tool. But most non-fiction authors have Amazon pages structured for casual browsers, not professional buyers.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Comprehensive keyword research targeting professional and institutional search behavior</li>
+            <li>Complete book description restructuring for authority-based titles</li>
+            <li>Category reclassification into the optimal configuration for your specific professional audience</li>
+            <li>Endorsement integration and strategic placement for maximum professional credibility</li>
+            <li>A Plus Content design for eligible titles</li>
+            <li>30-day post-optimization performance monitoring and refinement</li>
+            <li>Clear reporting on ranking improvements and discoverability changes</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-left">
+        <div class="service-detail-card">
+          <span class="big-icon">🔍</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Under-Discovered Books</h3>
+          <p>Non-fiction authors whose Amazon pages are not reflecting their professional authority and whose books are not surfacing in relevant searches despite strong content.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"An Amazon presence that works as hard as your content does, surfacing your book to the exact readers searching for it."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Complete Package Section -->
-    <section class="package-section section-padding bg-gradient">
-        <div class="container">
-            <div class="package-wrapper" data-aos="fade-up">
-                <div class="package-content">
-                    <span class="section-badge light">Complete Package</span>
-                    <h2 class="section-title light">Want Everything? Get the Complete Elevate Package</h2>
-                    <p>All five services bundled together for comprehensive, integrated marketing that covers every aspect of your author platform and book promotion.</p>
-                    <ul class="package-features">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Book Marketing
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Social Media Management
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Amazon Optimization
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Book Launch Strategy
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Author Website Design
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Priority Support and Dedicated Account Manager
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            Monthly Strategy Calls
-                        </li>
-                    </ul>
-                    <a href="contact.html" class="btn btn-white btn-lg">
-                        <span>Inquire About Complete Package</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                    </a>
-                </div>
-            </div>
+<!-- SERVICE 05: BOOK LAUNCH -->
+<section class="service-detail-section" id="launch">
+  <div class="container">
+    <div class="service-detail-inner">
+      <div class="service-detail-text" data-animate="fade-left">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 05</span>
         </div>
-    </section>
+        <h2 class="section-title">Book Launch Strategy</h2>
+        <p class="service-detail-subline">A comprehensive, coordinated launch plan that builds professional awareness, generates early momentum, and positions your book for sustained visibility long after launch week.</p>
+        <p>Most non-fiction authors treat book launches as publication day announcements. They post on social media, send an email to their list, and wait. The result is a brief spike in sales followed by a rapid decline. A strategic book launch is a 60 to 90 day coordinated campaign that builds professional awareness before publication and sustains visibility through the months that follow.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Comprehensive 90-day launch plan and day-by-day timeline</li>
+            <li>Pre-launch audience and professional platform building strategy</li>
+            <li>Advanced Reader Copy distribution to credible voices in your professional field</li>
+            <li>Cover reveal and excerpt campaign across professional channels</li>
+            <li>Launch week coordination across all relevant platforms and networks</li>
+            <li>Professional network activation timed to maximize launch-week impact</li>
+            <li>Paid advertising setup and management during the launch window</li>
+            <li>Post-launch momentum strategy for 30 to 60 days following publication</li>
+            <li>Launch performance report and strategic analysis</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-right">
+        <div class="service-detail-card">
+          <span class="big-icon">🚀</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Launching Authors</h3>
+          <p>Authors launching new books who want a professional, coordinated launch strategy rather than an improvised announcement. Authors who want their launch week to establish genuine, sustained momentum.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"A 90-day coordinated campaign that turns your book launch from an announcement into a professional event."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Process Section -->
-    <section class="process-section section-padding">
-        <div class="container">
-            <div class="section-header centered" data-aos="fade-up">
-                <span class="section-badge">Our Process</span>
-                <h2 class="section-title">How We Work With You</h2>
-                <p class="section-subtitle">A simple, transparent process designed to deliver results without overwhelming you.</p>
-            </div>
-            <div class="process-grid">
-                <div class="process-step" data-aos="fade-up" data-aos-delay="0">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>Discovery Call</h3>
-                        <p>We start with a free strategy session where we learn about your book, your goals, and your current situation. No sales pitch, just genuine consultation.</p>
-                    </div>
-                </div>
-                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>Custom Strategy</h3>
-                        <p>Based on our discovery call, we develop a tailored marketing strategy specifically for YOUR book. Not a template. A custom roadmap.</p>
-                    </div>
-                </div>
-                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Implementation</h3>
-                        <p>Our team goes to work implementing your marketing plan across every necessary channel. You focus on writing while we handle the marketing.</p>
-                    </div>
-                </div>
-                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
-                    <div class="step-number">04</div>
-                    <div class="step-content">
-                        <h3>Optimization</h3>
-                        <p>We constantly monitor performance, analyze data, test new approaches, and optimize everything to maximize your results with regular reports.</p>
-                    </div>
-                </div>
-            </div>
+<!-- SERVICE 06: AUTHOR WEBSITE -->
+<section class="service-detail-section" id="website">
+  <div class="container">
+    <div class="service-detail-inner reverse">
+      <div class="service-detail-text" data-animate="fade-right">
+        <div class="service-badge-number">
+          <span class="service-detail-num">SERVICE 06</span>
         </div>
-    </section>
+        <h2 class="section-title">Author Website Design</h2>
+        <p class="service-detail-subline">A professional author headquarters that reflects your institutional credibility, showcases your expertise, captures professional inquiries, and builds the email list that becomes your most valuable long-term visibility asset.</p>
+        <p>Your website is often the first place a serious professional reader, corporate buyer, or media contact goes after finding your book on Amazon. What they find there either confirms your authority or undermines it immediately. For non-fiction authors and thought leaders, a professional website is not optional. It is the foundation of your entire online presence.</p>
+        <div class="service-includes">
+          <h5>What Is Included</h5>
+          <ul>
+            <li>Custom professional website design tailored to your brand and professional field</li>
+            <li>Mobile-responsive layout optimized for all devices</li>
+            <li>Strategic author biography and professional credibility architecture</li>
+            <li>Book showcase with endorsements, media coverage, and purchase links</li>
+            <li>Email newsletter signup integration with reader magnet capability</li>
+            <li>Professional media kit page for press, speaking, and institutional inquiries</li>
+            <li>SEO foundation setup for professional search visibility</li>
+            <li>Google Analytics integration and configuration</li>
+            <li>30-day post-launch support and refinement</li>
+          </ul>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+      </div>
+      <div class="service-detail-visual" data-animate="fade-left">
+        <div class="service-detail-card">
+          <span class="big-icon">💻</span>
+          <span class="ideal-for-tag">Ideal For</span>
+          <h3>Authors Without a Proper Home Base</h3>
+          <p>Non-fiction authors without a professional website. Authors whose current website does not reflect the depth of their credentials. Authors preparing for a book launch who need a credible professional home base.</p>
+          <div style="border-top:1px solid rgba(255,255,255,0.10);margin-top:24px;padding-top:24px;">
+            <p style="font-size:0.85rem;color:rgba(255,255,255,0.50);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em;">What You Get</p>
+            <p style="font-size:0.95rem;color:rgba(255,255,255,0.80);font-style:italic;">"A professional digital headquarters that confirms your authority the moment a serious reader lands on it."</p>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="contact.html" class="btn btn-outline-gold" style="width:100%;justify-content:center;">Start the Conversation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="cta-background">
-            <div class="cta-overlay"></div>
-        </div>
-        <div class="container">
-            <div class="cta-content" data-aos="zoom-in">
-                <h2>Not Sure Where to Start?</h2>
-                <p>Book a free strategy call and we will audit your current situation and recommend exactly what will move the needle for YOUR book.</p>
-                <div class="cta-buttons">
-                    <a href="contact.html" class="btn btn-white btn-lg">
-                        <span>Book Free Strategy Call</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- COMPLETE PACKAGE -->
+<section class="complete-package" aria-label="Complete package">
+  <div class="container">
+    <span class="section-badge" style="background:rgba(255,255,255,0.20);color:#fff;border-color:rgba(255,255,255,0.40);">Complete Package</span>
+    <h2 data-animate="fade-up">The Complete Elevate Package</h2>
+    <p data-animate="fade-up" data-delay="100">For authors who are serious about building comprehensive visibility across every channel that matters, all six services are available as a single integrated engagement. When every element of your positioning strategy is built and managed by a single team working from a single strategic framework, the results compound in ways that disconnected services cannot produce.</p>
+    <div class="package-includes-grid" data-animate="fade-up" data-delay="200">
+      <div class="package-item">Thought Leadership Book Positioning</div>
+      <div class="package-item">Book Marketing</div>
+      <div class="package-item">Social Media Management</div>
+      <div class="package-item">Amazon Optimization</div>
+      <div class="package-item">Book Launch Strategy</div>
+      <div class="package-item">Author Website Design</div>
+      <div class="package-item">Priority Access and Dedicated Account Management</div>
+      <div class="package-item">Monthly Strategy Sessions with Direct Communication</div>
+      <div class="package-item">Integrated Reporting Across All Services</div>
+    </div>
+    <a href="contact.html" class="btn btn-white" data-animate="fade-up" data-delay="300">Inquire About the Complete Package</a>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <a href="index.html" class="footer-logo">
-                            <img src="images/ELEVATE_READS.png" alt="Elevate Reads">
-                        </a>
-                        <p class="footer-tagline">Your Book's Journey to Success Starts Here</p>
-                        <p class="footer-description">Expert book marketing, social media management, and author branding for indie authors who refuse to settle for invisibility.</p>
-                        <div class="footer-social">
-                            <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on X">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="services.html#book-marketing">Book Marketing</a></li>
-                            <li><a href="services.html#social-media">Social Media Management</a></li>
-                            <li><a href="services.html#amazon-optimization">Amazon Optimization</a></li>
-                            <li><a href="services.html#book-launch">Book Launch Strategy</a></li>
-                            <li><a href="services.html#website-design">Author Website Design</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-contact">
-                        <h4>Get In Touch</h4>
-                        <ul>
-                            <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                                <a href="mailto:getelevatedreads@gmail.com">getelevatedreads@gmail.com</a>
-                            </li>
-                            <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                                <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer">@elevate_reads</a>
-                            </li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-primary btn-sm footer-cta">Book a Call</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2024 Elevate Reads. All Rights Reserved.</p>
-                    <div class="footer-bottom-links">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- PROCESS -->
+<section class="process-section" aria-label="Our process">
+  <div class="container">
+    <div class="text-center" data-animate="fade-up">
+      <span class="section-badge">Our Process</span>
+      <h2 class="section-title">How We Work Together</h2>
+      <div class="gold-divider"></div>
+    </div>
+    <div class="process-steps">
+      <div class="process-step" data-animate="fade-up" data-delay="0">
+        <div class="step-number">01</div>
+        <h4>Discovery and Diagnosis</h4>
+        <p>We begin with a detailed conversation about your book, your professional background, your current Amazon presence, and your visibility goals. A genuine working session where we identify exactly where the gap is and what closing it requires.</p>
+      </div>
+      <div class="process-step" data-animate="fade-up" data-delay="100">
+        <div class="step-number">02</div>
+        <h4>Custom Strategy Development</h4>
+        <p>Based on our discovery conversation, we build a positioning strategy specifically constructed around your book, your credentials, your target reader, and the channels where that reader exists. Nothing here is generic.</p>
+      </div>
+      <div class="process-step" data-animate="fade-up" data-delay="200">
+        <div class="step-number">03</div>
+        <h4>Implementation and Execution</h4>
+        <p>We go to work implementing the strategy. You focus on your work. We handle the positioning. Clear communication throughout so you always know what is happening and why.</p>
+      </div>
+      <div class="process-step" data-animate="fade-up" data-delay="300">
+        <div class="step-number">04</div>
+        <h4>Monitoring and Refinement</h4>
+        <p>We track performance, analyze what is working, refine what needs adjustment, and report transparently on progress throughout our engagement.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+<!-- SERVICES CTA -->
+<section class="final-cta" aria-label="Services call to action">
+  <div class="container">
+    <h2 data-animate="fade-up">Not Sure Which Service Your Book Needs?</h2>
+    <p data-animate="fade-up" data-delay="100">Send me a message. Tell me about your book, your professional background, and where you feel the gap between your expertise and your book's visibility is largest. I will tell you honestly what would move the needle most for your specific situation.</p>
+    <div class="final-cta-btns" data-animate="fade-up" data-delay="200">
+      <a href="contact.html" class="btn btn-primary">Start the Conversation</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/ELEVATE_READS.png" alt="Elevate Reads" />
+        <p>Expert book positioning, Amazon optimization, and visibility strategy for non-fiction authors, business thought leaders, and leadership experts whose books deserve to be found.</p>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:4px;margin-bottom:20px;">Your Book's Journey to Success Starts Here.</p>
+        <div class="footer-social">
+          <a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Follow on X">𝕏</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <nav class="footer-links">
+          <a href="services.html#positioning">Thought Leadership Positioning</a>
+          <a href="services.html#marketing">Book Marketing</a>
+          <a href="services.html#social">Social Media Management</a>
+          <a href="services.html#amazon">Amazon Optimization</a>
+          <a href="services.html#launch">Book Launch Strategy</a>
+          <a href="services.html#website">Author Website Design</a>
+        </nav>
+      </div>
+      <div class="footer-col footer-contact">
+        <h5>Connect</h5>
+        <p><span>𝕏</span><a href="https://x.com/elevate_reads" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.55);">@elevate_reads</a></p>
+        <p><span>📍</span>Serving authors across 45+ countries worldwide</p>
+        <div style="margin-top:24px;">
+          <a href="contact.html" class="btn btn-outline-gold btn-sm">Start the Conversation</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Elevate Reads. All Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8679;</button>
+<script src="js/main.js"></script>
 </body>
 </html>
